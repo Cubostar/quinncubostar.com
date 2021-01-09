@@ -1,13 +1,19 @@
 html {
   font-size: 60px;
   font-family: 'Noto Sans JP', sans-serif;
-  }
-h1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
-h2 {
-
+.homelayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hltitle {
+  width: 100%;
+}
+.hlcuboart {
+  width: 49%;
+}
+.hllinks {
+  width: 49%
 }
